@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+httpx
+google-generativeai
+python-dotenv
+passlib[bcrypt]
+pyjwt
+starlette
