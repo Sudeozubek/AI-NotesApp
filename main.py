@@ -3,7 +3,7 @@ from models.models import Base
 from database.database import engine
 from fastapi.middleware.cors import CORSMiddleware
 from routers.note import router as notes_router
-
+ 
 app = FastAPI()
 
 app.add_middleware(
