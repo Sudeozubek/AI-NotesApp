@@ -8,7 +8,6 @@ router = APIRouter(
     prefix="/notes",
     tags=["notes"]
 )
-
 @router.get("/", response_model=list[NoteResponse])
 def get_notes(db: Session = Depends(get_db)):
     notes = db.query(Note).all()
